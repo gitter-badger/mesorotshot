@@ -51,14 +51,23 @@ OnMonitorShot:
 Return
 
 OnFullShot:
-  TakeScreenshot(3)
+  TakeScreenshot(0)
 Return
 
 ; http://stackoverflow.com/questions/12851677/dynamically-create-autohotkey-hotkey-to-function-subroutine
 ; http://www.etcwiki.org/wiki/IrfanView_Command_Line_Options
 ; http://www.makeuseof.com/tag/10-useful-commandline-irfanview-tools-working-images/
 ; "i_view32.exe /capture=0 /convert=c:\temp\capture_$U(%d%m%Y_%H%M%S).jpg"
-; The capture=0 could be 1 (current monitor), 2 (foreground window), 3 (client area), 4 (rectangle section), or 5 (launch in capture mode).
+; Capture can be:
+; 0 = whole screen 
+; 1 = current monitor, where mouse is located
+; 2 = foreground window
+; 3 = foreground window - client area
+; 4 = rectangle selection
+; 5 = object selected with the mouse
+; 6 = start in capture mode (can't be combined with other commandline options)
+; 7 = fixed rectangle (using capture dialog values)
+
 
 TakeScreenshot(captureMode)
 {
