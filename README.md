@@ -28,11 +28,10 @@ The path to this folder usually is:
   https://dl.dropboxusercontent.com/u/DROPBOX_ID
   ```
 - **Hotkeys Window:** this is the hotkey used to take screenshot only of the
-  current window. Hotkeys are defined following Autohotkey
-  syntax, which can be found:
+  current window. By default is Ctrl + Win + F10.
+  Hotkeys are defined following Autohotkey syntax, which can be found:
   - http://www.autohotkey.com/docs/Hotkeys.htm
   - http://www.autohotkey.com/docs/KeyList.htm
-  By default is Ctrl + Win + F10
 - **Hotkeys Monitor:** this is the hotkey used to take the screenshot of current
   monitor, by default is Ctrl + Win + F11
 - **Hotkeys Full:** this is the hotkey used to take the screenshot of all
