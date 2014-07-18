@@ -37,6 +37,10 @@ The path to this folder usually is:
 - **Hotkeys Full:** this is the hotkey used to take the screenshot of all
   monitors, by default is Ctrl + Win + F12
 
+### Important notice about configuration
+If you change the configuration, you have to restart mesorotshot or changes won't
+be applied!
+
 ## Usage
 Very simple, after you managed to install and execute it, just press one of the
 hotkeys to take a screenshot. If you set UrlPrefix, you will be able to paste
